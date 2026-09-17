@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #222;
+        }
+
+        h1 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #111;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Privacy Policy</h1>
+    <p><strong>Last Updated:</strong> September 17, 2026</p>
+
+    <p>This privacy policy describes how <strong>Image Generator</strong> ("Application", "we", "us", or "our")
+        collects, uses, and shares information when you use our mobile application. By using the Application, you agree
+        to the practices described in this policy.</p>
+
+    <p>Image Generator is an AI-powered image creation and editing app. You can enter a text prompt, optionally attach
+        reference photos from your camera or gallery, generate or edit images with artificial intelligence, save your
+        generation history, and purchase credits for additional generations.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We collect information necessary to operate the Application and provide its features.</p>
+
+    <h3>a. Information You Provide</h3>
+    <ul>
+        <li><strong>Account Information:</strong> You may use the Application as a guest with anonymous authentication,
+            or sign in with email and password, Google Sign-In, or Sign in with Apple (Apple sign-in is available on
+            iOS). Depending on the method you choose, we may process your email address, display name, profile photo URL,
+            and phone number (if provided by your sign-in provider). Guest accounts do not require an email address.</li>
+        <li><strong>Profile Information:</strong> You may optionally set a display name and upload a profile photo,
+            which are stored in your user account.</li>
+        <li><strong>Prompts, Photos, and Generation Data:</strong> When you create or edit an image, we process the text
+            prompt you enter, any reference photos you select (up to the limit shown in the Application), generated
+            result images, and related metadata (such as task status, model identifiers, and timestamps). Source and
+            result images are stored in Firebase Storage and associated records in Cloud Firestore.</li>
+        <li><strong>Purchase Information:</strong> When you buy credit packages through in-app purchases, transaction
+            processing is handled by Apple App Store or Google Play. We receive purchase confirmation data needed to
+            credit your account; we do not receive or store your full payment card details.</li>
+        <li><strong>Support and Account Requests:</strong> If you contact us by email (for example, to request account
+            deletion), we receive the information you include in your message.</li>
+    </ul>
+
+    <h3>b. Information We Collect Automatically</h3>
+    <ul>
+        <li><strong>Usage and Analytics Data:</strong> We collect usage data through Firebase Analytics, such as selected
+            app events (for example, first onboarding open) and general technical usage signals that help us understand
+            how the Application is used and improve performance and user experience.</li>
+        <li><strong>Push Notification Token (FCM Token):</strong> If you allow push notifications, we collect and store
+            a Firebase Cloud Messaging (FCM) device token linked to your account so we can send service-related
+            notifications.</li>
+        <li><strong>Device and App Information:</strong> We may collect device type, operating system version, app
+            version, and similar technical identifiers for authentication, delivery of notifications, analytics, and
+            troubleshooting.</li>
+        <li><strong>Local App Data:</strong> The Application may store preferences and cached media locally on your
+            device (for example, via secure storage, SharedPreferences, or on-device cache) to improve loading speed and
+            remember settings such as onboarding completion.</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <p>We use the information we collect for the following purposes:</p>
+    <ul>
+        <li><strong>Service Delivery:</strong> To authenticate you, process AI image generation and editing requests,
+            deliver generated images, and maintain your generation history.</li>
+        <li><strong>Credits and Purchases:</strong> To manage your credit balance, validate in-app purchases, and apply
+            purchased credits to your account.</li>
+        <li><strong>Personalization:</strong> To display your profile and saved generations within the Application.</li>
+        <li><strong>Communication:</strong> To send push notifications (when enabled) and respond to support or account
+            requests.</li>
+        <li><strong>Analysis and Improvement:</strong> To analyze usage through Firebase Analytics, configure app
+            behavior through Firebase Remote Config where applicable, and develop new features.</li>
+        <li><strong>AI Processing:</strong> To send your prompt and any selected reference photos to our backend and AI
+            image generation providers so we can create or edit images for you.</li>
+        <li><strong>Security and Account Management:</strong> To protect the Application, manage accounts (including
+            guest-to-registered account linking), and process deletion requests.</li>
+    </ul>
+
+    <h2>3. How We Share Your Information</h2>
+    <p>We do not sell your personal information. We share information only with service providers that help us operate
+        the Application:</p>
+    <ul>
+        <li><strong>Google / Firebase:</strong> For anonymous and social authentication (Firebase Auth), database
+            storage (Cloud Firestore), file storage (Firebase Storage), cloud functions (Firebase Cloud Functions),
+            analytics (Firebase Analytics), push notifications (Firebase Cloud Messaging), and remote configuration
+            (Firebase Remote Config).</li>
+        <li><strong>AI Image Providers:</strong> Your text prompts and any reference photos you submit may be processed
+            by third-party AI image generation services (currently via Kie.ai / Seedream models) through our Firebase
+            Cloud Functions, solely to generate or edit the images you requested and to create related task records.</li>
+        <li><strong>Apple and Google:</strong> For Sign in with Apple, Google Sign-In, and in-app purchase processing,
+            according to their respective terms and privacy policies.</li>
+        <li><strong>Device Sharing:</strong> If you use the share feature, the generated image is shared through your
+            device’s native share sheet with the apps or contacts you choose. We do not operate an in-app community feed.
+        </li>
+    </ul>
+
+    <h2>4. Data Security and Retention</h2>
+    <p>We use industry-standard technical and organizational measures to protect your data, including encrypted
+        transmission (HTTPS) and Firebase security rules. We retain your information for as long as your account is
+        active and as needed to provide the Application, comply with legal obligations, or resolve disputes.</p>
+    <p>You can delete individual generation tasks from your history within the Application. You can delete your
+        account from profile settings (registered accounts may need to re-authenticate). Account deletion removes your
+        authentication account and associated data from our systems to the extent technically feasible, subject to
+        reasonable backup retention periods. You may also contact us at the email below to request deletion.</p>
+
+    <h2>5. Your Rights and Choices</h2>
+    <p>Depending on your location, you may have rights to access, correct, delete, or restrict processing of your
+        personal information. Within the Application, you can:</p>
+    <ul>
+        <li><strong>View and Manage Content:</strong> Access your generation history and profile.</li>
+        <li><strong>Update Profile:</strong> Change your display name and profile photo in profile settings (for
+            registered accounts).</li>
+        <li><strong>Delete Content:</strong> Remove saved generation tasks from your history.</li>
+        <li><strong>Delete Account:</strong> Permanently delete your account through profile settings, or by emailing
+            us. For guest accounts, include details that help us identify your account (such as your user ID if shown in
+            the app).</li>
+        <li><strong>Notification Preferences:</strong> Enable or disable push notifications in your device settings.</li>
+        <li><strong>Analytics:</strong> You may limit certain analytics collection through your device privacy settings;
+            some features may still require basic technical data to function.</li>
+        <li><strong>Sign-In Choices:</strong> You may continue as a guest or link a permanent account using email,
+            Google, or Apple (where available) at any time.</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>The Application is not intended for children under the age of 13 (or the equivalent minimum age in your
+        jurisdiction, such as 16 in the European Union). We do not knowingly collect personal information from children.
+        If you believe a child has provided us with personal information, please contact us and we will take steps to
+        delete it.</p>
+
+    <h2>7. International Users</h2>
+    <p>Your information may be processed and stored on servers operated by our service providers, which may be located
+        outside your country of residence. By using the Application, you consent to such processing where permitted by
+        applicable law.</p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>We may update this privacy policy from time to time. When we do, we will revise the "Last Updated" date above.
+        Material changes may be communicated through the Application. Your continued use of the Application after
+        changes become effective constitutes acceptance of the updated policy.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have questions or concerns about this privacy policy or your data, please contact us:</p>
+    <p><strong><a href="mailto:furkan_abbasi233@outlook.com">furkan_abbasi233@outlook.com</a></strong></p>
+
+</body>
+
+</html>
